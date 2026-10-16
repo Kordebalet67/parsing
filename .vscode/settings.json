@@ -1,0 +1,5 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "files.autoSave": "afterDelay", 
+    "files.autoSaveDelay": 100
+}

@@ -3,7 +3,8 @@ from parser_class import Parser
 
 def main():
     try:
-        list = ["oper_user", "passwd", "capcher", "cap_field", "input[value='Войти']"] #0 - ID, 1 - NAME, 2 - ID, 3 - ID, 4 - CSS.SELECTOR
+        #list = [0 - ID, 1 - NAME, 2 - ID, 3 - ID, 4 - CSS.SELECTOR](index - element)
+        list = ["oper_user", "passwd", "capcher", "cap_field", "input[value='Войти']"]
         parser = Parser(
             'https://issaold.beltelecom.by/main.html',
             'https://www.prepostseo.com/ru/image-to-text',
